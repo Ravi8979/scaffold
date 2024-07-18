@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.app {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;b
+}
+
+.carousel {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.dropzone {
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.file-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.file-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    position: relative;
+}
+
+.file-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
